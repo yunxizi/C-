@@ -11,7 +11,8 @@ int main()
 return 0;
 }
 
-\\#include(stdio.h)
+\\计算数据类型长度
+#include(stdio.h)
 int mian()
 {
   sizeof("%d",int);
