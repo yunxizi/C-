@@ -15,6 +15,8 @@ return 0;
 #include(stdio.h)
 int mian()
 {
-  sizeof("%d",int);
+  printf("%d\n",sizeof(int));\\\\计算int所占字节长度
   return 0;
 }
+
+\\全局变量作用于整个工程，局部变量作用于括号内。   {生命周期类似}
