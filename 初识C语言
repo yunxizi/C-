@@ -20,3 +20,12 @@ int mian()
 }
 
 \\全局变量作用于整个工程，局部变量作用于括号内。   {生命周期类似}
+
+#include<stdio.h>
+#include<stafx.h>
+#include<math.h>
+int main()
+{
+ printf("%f",5*sin(3.14/3)+12.5*3.4+sqart(16.88)); //打印5乘以sin60+12.5乘以3.4+根号下16.88的结果。
+return 0;
+}
